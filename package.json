@@ -1,0 +1,30 @@
+{
+  "name": "Checker-Connectify",
+  "version": "1.0.0",
+  "description": "Realiza la verificación de la conectividad por IP",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdolfoAT/Checker-Connectify.git"
+  },
+  "keywords": [
+    "TCP/IP",
+    "Test",
+    "Conectify",
+    "Ping"
+  ],
+  "author": "Adolfo Ascencio Trejo",
+  "license": "ISC",
+  "homepage": "https://github.com/AdolfoAT/Checker-Connectify.git",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "@slack/client": "^5.0.2",
+    "mocha": "^6.2.2",
+    "nodemailer": "^6.3.1"
+  }
+}
